@@ -1,0 +1,88 @@
+[
+  {
+    "fullName": "Heritage Utsav App",
+    "bio": "The official App for Heritage utsav, the annual fest of HIT.",
+    "category": "Android",
+    "profilePicture": "https://lh3.googleusercontent.com/pGmh0reZm9anWpubQA5qIQ2L5Eb6o99QfuJQDQ4OfSc1Eaih7c6NbLc4cgiyU5y6U5fs=s180-rw",
+    "sessions": [
+      {
+        "id": 71595,
+        "name": "Android App"
+      }
+    ],
+    "links": [
+      {
+        "title": "Blog",
+        "url": "https://play.google.com/store/apps/details?id=com.college.heritageutsav&hl=en",
+        "linkType": "Blog"
+      }
+    ]
+  },
+  {
+    "fullName": "Thanos Snap",
+    "bio": "A small project to replicate the Thanos Easter Egg on Google Search Results.",
+    "category": "Web",
+    "profilePicture": "https://cdn.dribbble.com/users/123106/screenshots/4537613/thanos.png",
+    "sessions": [
+      {
+        "id": 67330,
+        "name": "Snap and Gone!"
+      }
+    ],
+    "links": [
+      {
+        "title": "Github",
+        "url": "https://github.com/subhasis020299/thanos",
+        "linkType": "Github"
+      }
+    ]
+  },
+  {
+    "fullName": "HITCrunch",
+    "bio": "A Project for DSC Solution Challenge that aggregates notices.",
+    "category": "Android",
+    "profilePicture": "https://lh3.googleusercontent.com/e83_Cs2OGIp1q7N6fCtwc4q2rVB03u7UbvPzBqJwiYdQWvL_HZfN2gJzvVWXED-Ow98=s180-rw",
+    "sessions": [
+      {
+        "id": 67151,
+        "name": "Notice Board App"
+      }
+    ],
+    "links": [
+      {
+        "title": "Github",
+        "url": "https://github.com/DSC-HIT/Notice-Board",
+        "linkType": "Github"
+      },
+      {
+        "title": "Blog",
+        "url": "https://play.google.com/store/apps/details?id=dschik.noticeboard&hl=en",
+        "linkType": "Blog"
+      }
+    ]
+  },
+  {
+    "fullName": "GDG Slackbot",
+    "bio": "A Bot that posts Opportunities to the GDG Slack Channel.",
+    "category": "Web",
+    "profilePicture": "https://slackhq.com/wp-content/uploads/2019/01/2019-01_BrandRefresh_slack-brand-refresh_header-1.png?w=460",
+    "sessions": [
+      {
+        "id": 67330,
+        "name": "Slack Bot"
+      }
+    ],
+    "links": [
+      {
+        "title": "Blog",
+        "url": "http://gdgkolslack.netlify.com",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Github",
+        "url": "https://github.com/GeekBoySupreme/GDG-Slackbot",
+        "linkType": "Github"
+      }
+    ]
+  }
+]
