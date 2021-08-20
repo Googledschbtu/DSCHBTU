@@ -9,6 +9,8 @@
 <br>
 <a href="https://dsc.hbtu.in"><img src="https://github.com/mohitjaisal/ImageStore/blob/master/Readme-DSCHBTU/DSCHBTU-README.gif"></img></a>
 <br>
+
+
 ### Google collaborates with university students who are passionate about growing developer communities. This official Google Developer Student Clubs Website is founded by <a href="https://dsc.hbtu.in/team">**GDSC 2021-2022 team**</a>
 
 ### *Developer Student Club* powered by _Google Developers_ is an initiative to grow their knowledge on developer technologies and more through peer to peer workshops and events, and gain relevant industry experience.
@@ -47,15 +49,15 @@ Thanks goes to these wonderful people:
 
 <table  align="center">
   <tr>
-    <td align="center"><a href="https://github.com/Aaishpra"><img src="./assets/img/team/2021-2022/1.png" width="100px;" alt=""/><br /><sub><b>Shipra Verma</b></sub></a><br /><sub>DSC Lead</sub></td>
+    <td align="center"><a href="https://github.com/Aaishpra"><img src="https://dsc.hbtu.in/assets/img/team/2021-2022/1.png" width="100px;" alt=""/><br /><sub><b>Shipra Verma</b></sub></a><br /><sub>DSC Lead</sub></td>
      &nbsp;  &nbsp;  &nbsp;
-    <td align="center"><a href="https://github.com/mohitjaisal"><img src="./assets/img/team/2021-2022/2.png" width="100px;" alt=""/><br /><sub><b>Mohit Jaisal</b></sub></a><br /><sub>DSC Web Lead</sub></td>
+    <td align="center"><a href="https://github.com/mohitjaisal"><img src="https://dsc.hbtu.in/assets/img/team/2021-2022/2.png" width="100px;" alt=""/><br /><sub><b>Mohit Jaisal</b></sub></a><br /><sub>DSC Web Lead</sub></td>
      &nbsp;  &nbsp;  &nbsp;
-    <td align="center"><a href="https://github.com/khushishikhu"><img src="./assets/img/team/2021-2022/3.png" width="100px;" alt=""/><br /><sub><b>Khushi Gautam</b></sub></a><br /><sub>DSC Opensource Lead</sub></td>
+    <td align="center"><a href="https://github.com/khushishikhu"><img src="https://dsc.hbtu.in/assets/img/team/2021-2022/3.png" width="100px;" alt=""/><br /><sub><b>Khushi Gautam</b></sub></a><br /><sub>DSC Opensource Lead</sub></td>
      &nbsp;  &nbsp;  &nbsp;
-    <td align="center"><a href="https://github.com/abhi14nexu"><img src="./assets/img/team/2021-2022/4.png" width="100px;" alt=""/><br /><sub><b>Abhishek Yadav</b></sub></a><br /><sub>DSC Android Lead</sub></td>
+    <td align="center"><a href="https://github.com/abhi14nexu"><img src="https://dsc.hbtu.in/assets/img/team/2021-2022/4.png" width="100px;" alt=""/><br /><sub><b>Abhishek Yadav</b></sub></a><br /><sub>DSC Android Lead</sub></td>
      &nbsp;  &nbsp;  &nbsp;
-    <td align="center"><a href="https://github.com/srai0109"><img src="./assets/img/team/2021-2022/5.png" width="100px;" alt=""/><br /><sub><b>Shikha Rai</b></sub></a><br /><sub>DSC UX & UI Lead</sub></td>
+    <td align="center"><a href="https://github.com/srai0109"><img src="https://dsc.hbtu.in/assets/img/team/2021-2022/5.png" width="100px;" alt=""/><br /><sub><b>Shikha Rai</b></sub></a><br /><sub>DSC UX & UI Lead</sub></td>
     
   </tr>
   </table>
