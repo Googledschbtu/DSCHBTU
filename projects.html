@@ -67,7 +67,7 @@
             </h5>
             <p>&nbsp;</p>
             <a href="mailto:mohitjaisal19@gmail.com" class="btn btn-primary" id="buttons" target="blank">
-              <b>Submit a Project</b>
+              <b>Submit your Project</b>
             </a>
 
             <p>&nbsp;</p>
@@ -184,135 +184,6 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     <!--<script src="assets/assets-custom/index.js"></script>-->
-
-
-    <script>
-      $(window).on('load', function () { // makes sure the whole site is loaded 
-        $('#status').fadeOut(); // will first fade out the loading animation 
-        $('#preloader').delay(450).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-        $('body').delay(450).css({
-          'overflow': 'visible'
-        });
-      })
-
-
-      $('document').ready(function () {
-
-        function getLinks(links) {
-
-          var result = '';
-
-          /* ============================================ Getting Link Type ============================================ */
-          links.forEach(function (link) {
-
-            if (link.linkType === 'Twitter') {
-              result += `<li style="color:rgb(0,101,202);">
-                          <a id="social_link1" href="${link.ur}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                       </li>`;
-            }
-
-            if (link.linkType == 'Github') {
-              result += `<li style="color:rgb(0,101,202);">
-                          <a id="social_link1" href="${link.url}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                       </li>`;
-            }
-
-            if (link.linkType == 'Blog') {
-              result += `<li style="color:rgb(0,101,202);">
-                          <a id="social_link1" href="${link.url}" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                       </li>`;
-            }
-
-          });
-
-          return result;
-        }
-
-        /* ============================================ Getting the Right Colour ============================================ */
-        function getColour(project) {
-          var colour = "";
-
-          switch (project.category) {
-            case "Android":
-              colour = "rgb(13, 243, 90)";
-              break;
-
-            case "Cloud":
-              colour = "rgb(250, 67, 5)";
-              break;
-
-            case "AR":
-              colour = "rgb(133, 7, 235)";
-              break;
-
-            case "Web":
-              colour = "rgb(0,101,202)";
-              break;
-
-            case "Firebase":
-              colour = "rgb(255, 201,14)";
-              break;
-
-            case "Flutter":
-              colour = "rgb(2,134,204)";
-              break;
-
-            default:
-              colour = "rgb(255, 201,14)";
-              break;
-          }
-
-          return colour;
-        }
-
-        /* ============================================ Getting Template ============================================ */
-        function getTemplate(project) {
-          var template =
-            `<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 parent-card">                                        
-              <div class="card" data-id="${project.id}">                                                               
-                <div class="box"> 
-                
-                  <div class="img">
-                    <img src="${project.profilePicture}" alt="" />
-                  </div>   
-                  
-                  <h2 style="font-weight:400;" class="blue_text">${project.fullName}</h2>                          
-                  <p class="description">
-                    <b>${project.category.split('.')[0]}</b>
-                    <span class="peoject-dot" style="background :${getColour(project)}";></span>
-                  </p>            
-                  <p class="about">${((project.bio).substring(0, 84)).concat("...")}</p>                     
-                  <span class="project-social">                                                   
-                    <ul>${getLinks(project.links)}</ul>                                                          
-                  </span>                                                    
-                </div>                                                         
-              </div>                                                       
-           </div>`
-
-          return template;
-        }
-
-        var html = '';
-
-        /* ============================================ fetching Data by API ============================================ */
-        var settings = {
-          "url": "https://dschit.herokuapp.com/projects",
-          "method": "GET",
-          "timeout": 0,
-        };
-        $.ajax(settings).done(function (projects) {
-
-          projects.forEach(function (project) {
-            html += getTemplate(project);
-          });
-
-          /* ============================================ Stopping Animation and Placing Data ============================================ */
-          document.getElementById('loading-animation').style.display = "none";
-          $('#container-projects').append(html);
-
-        });
-      });
-    </script>
 </body>
 
 </html>
