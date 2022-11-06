@@ -43,9 +43,7 @@
 </div>
 
 
-## Google Developers Student Clubs HBTU Team ✨
-
-Thanks goes to these wonderful people:
+## Google Developers Student Clubs HBTU [2021-2022] Team ✨
 
 <table  align="center">
   <tr>
